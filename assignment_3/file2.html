@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 6. User Registration Form -->
+<form>
+  Full Name: <input type="text" name="fullname" required><br>
+  Email: <input type="email" name="email" required><br>
+  Password: <input type="password" name="password" required><br>
+  Confirm Password: <input type="password" name="confirm" required><br>
+  <input type="submit" value="Register">
+</form>
+
+<!-- 7. Login Form with CSRF Token -->
+<form>
+  Username: <input type="text" name="username" required><br>
+  Password: <input type="password" name="password" required><br>
+  <input type="hidden" name="csrf_token" value="dummy123">
+  <input type="submit" value="Login">
+</form>
+
+<!-- 8. Feedback Form -->
+<form method="post" action="#">
+  Feedback:<br>
+  <textarea name="feedback" required></textarea><br>
+  Rating:<br>
+  <input type="radio" name="rating" value="Good" required> Good
+  <input type="radio" name="rating" value="Average"> Average
+  <input type="radio" name="rating" value="Poor"> Poor<br>
+  <input type="submit" value="Submit">
+</form>
+
+<!-- 9. File Upload Form -->
+<form enctype="multipart/form-data">
+  Upload Image: <input type="file" name="image" accept=".jpg,.png" required><br>
+  <p>Only JPG or PNG files are allowed.</p>
+  <input type="submit" value="Upload">
+</form>
+
+<!-- 10. Contact Form -->
+<form>
+  Full Name: <input type="text" name="fullname" placeholder="Your Name" required><br>
+  Email: <input type="email" name="email" placeholder="Your Email" required><br>
+  Subject: <input type="text" name="subject" placeholder="Subject" required><br>
+  Message:<br>
+  <textarea name="message" placeholder="Your message..." required></textarea><br>
+  <input type="submit" value="Send">
+</form>
+
+
+</body>
+</html>
