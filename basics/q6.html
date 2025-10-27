@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photo Gallery</title>
+<style>
+body {margin:0; background:#111;}
+.gallery {
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:10px; padding:20px;
+}
+.image {
+  position:relative; overflow:hidden; border-radius:10px;
+}
+.image img {
+  width:100%; height:100%; object-fit:cover;
+  transition:transform 0.3s ease;
+}
+.image:hover img {
+  transform:scale(1.1);
+}
+.caption {
+  position:absolute; bottom:0; left:0; right:0;
+  background:rgba(0,0,0,0.6); color:white;
+  opacity:0; transition:opacity 0.3s ease;
+  text-align:center; padding:10px;
+}
+.image:hover .caption {
+  opacity:1;
+}
+</style>
+</head>
+<body>
+<div class="gallery">
+  <div class="image"><img src="https://via.placeholder.com/300"><div class="caption">Image 1</div></div>
+  <div class="image"><img src="https://via.placeholder.com/300"><div class="caption">Image 2</div></div>
+  <div class="image"><img src="https://via.placeholder.com/300"><div class="caption">Image 3</div></div>
+  <div class="image"><img src="https://via.placeholder.com/300"><div class="caption">Image 4</div></div>
+  <div class="image"><img src="https://via.placeholder.com/300"><div class="caption">Image 5</div></div>
+  <div class="image"><img src="https://via.placeholder.com/300"><div class="caption">Image 6</div></div>
+</div>
+</body>
+</html>
