@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #caedd4;
+  color: #1A3A27;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1A3A27;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #3E7C56;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-actions i {
+  font-size: 20px;
+  color: #1A3A27;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-actions i:hover {
+  color: #3E7C56;
+}
+
+.nav-actions button {
+  border: 1px solid #1A3A27;
+  background: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.nav-actions button:hover {
+  background-color: #1A3A27;
+  color: #fff;
+}
+
+/* 1st SECTION */
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 120px;
+  flex-wrap: wrap;
+}
+
+section div {
+  flex: 1;
+  min-width: 300px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+p {
+  color: #4B7050;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+
+section button {
+  background-color: #1A3A27;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+section button:hover {
+  background-color: #2E6141;
+}
+
+/* HERO IMAGE */
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  background-color:#caedd4;
+  padding: 30px;
+  border-radius: 40px;
+  max-width: 500px;
+  height: auto;
+}
+
+/* seller */
+.page2{
+background-color:#ffffff;
+
+}
+
+/* seller*/
+.seller h1 {
+  text-align: center;
+}
+
+.seller p {
+  color: #4B7050;
+  font-size: 15px;
+  text-align:center;
+}
+
+.seller{
+     display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.selimg{
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.sellerimg1 img{
+  background-color:#ffffff;
+  padding: 30px;
+  border-radius: 40px;
+  max-width: 300px;
+  height: auto;
+}
+
+.sellerimg2 img{
+  background-color:#ffffff;
+  padding: 30px;
+  border-radius: 40px;
+  max-width: 300px;
+  height: auto;
+}
+
+.sellerimg3 img{
+    background-color:#ffffff;
+  padding: 30px;
+  border-radius: 40px;
+  max-width: 300px;
+  height: auto;
+}
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  section {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 40px;
+  }
+
+  .image img {
+    max-width: 220px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+}
+
+</style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Rivo</div>
+        <nav>
+        <a href="#Home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#features">Features</a>
+        <a href="#Contact">Contact</a>
+        </nav>
+        <div class ="nav-actions">
+            <i>icon</i>
+            <button>Login</button>
+        </div>
+    </header>
+    <section>
+        <div>
+            <h1>Discover and<br>Find your own<br>Fashion!</h1>
+            <p>Explore our curated collection of stylish<br>clothing and accessories tailored to your<br>unique taste</p>
+            <button>Explore now</button>
+        </div>
+
+        <div class="image">
+            
+                <img src="https://zinghanger.wuaze.com/wp-content/uploads/2025/07/Screenshot-2025-07-08-123246.png" alt="model"/>
+        </div>
+    </section>
+    
+    <section class="page2">
+        <div class="seller">
+            <h1>Best Selling</h1>
+            <p>Get in on the trend with our curated selection of best-selling style.</p>
+        
+        <div class="selimg">
+        <div class="sellerimg1">
+            <img src="https://zinghanger.wuaze.com/wp-content/uploads/2025/07/ttt-819x1024.png" alt="model" />
+        </div>
+        <div class="sellerimg2">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgvV3oeMWzf_FWzIzOVTljjJ5vxjC3hMLHxd4W1lQr2rci0cVD" alt="model" />
+        </div>
+        <div class="sellerimg3">
+            <img src="https://zinghanger.wuaze.com/wp-content/uploads/2025/07/34-819x1024.png" alt="model" />
+        </div>
+        </div>
+        </div>
+    </section>
+    
+
+</body>
+
+</html>
