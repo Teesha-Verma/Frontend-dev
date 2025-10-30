@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #222;
+      color: white;
+      padding: 15px 40px;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: orange;
+    }
+
+    /* Main Section */
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      padding: 40px;
+      gap: 50px;
+    }
+
+    .about {
+      flex: 1;
+    }
+
+    .about h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .about p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .image-section {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-section img {
+      width: 80%;
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    /* Responsive Layout */
+    @media (max-width: 700px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+      }
+
+      main {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about, .image-section {
+        flex: unset;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Teesha Verma</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        I’m a passionate Computer Science student who loves solving problems, building web applications, and learning new technologies. 
+        I aim to create meaningful projects that blend creativity with logic.
+      </p>
+    </section>
+
+    <section class="image-section">
+      <img src="https://via.placeholder.com/300" alt="Profile Picture">
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Teesha Verma. All rights reserved.
+  </footer>
+
+</body>
+</html>
