@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: #333;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+/* ✅ GRID LAYOUT */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* ✅ IMAGE CARD STYLING */
+.item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: filter 0.4s ease;
+}
+
+/* ✅ DIFFERENT FILTERS */
+.item:nth-child(1) img { filter: blur(3px); }
+.item:nth-child(2) img { filter: grayscale(100%); }
+.item:nth-child(3) img { filter: sepia(90%); }
+.item:nth-child(4) img { filter: brightness(60%); }
+.item:nth-child(5) img { filter: contrast(180%); }
+.item:nth-child(6) img { filter: hue-rotate(120deg); }
+
+/* ✅ On hover — remove filter */
+.item:hover img {
+  filter: none;
+}
+
+/* ✅ CAPTION */
+figcaption {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fafafa;
+  color: #444;
+}
+
+/* ✅ Responsive for small screens */
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr; /* stack images vertically */
+  }
+}
