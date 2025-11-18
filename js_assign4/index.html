@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!-- QUESTION 2 -->
+<style>
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: 2px solid #ccc;
+    display: block;
+}
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 280px;
+}
+</style>
+
+
+<!-- QUESTION 6 -->
+<style>
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: 2px solid #ccc;
+    display: block;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+.valid {
+    border-color: green;
+}
+.invalid {
+    border-color: red;
+}
+#msg {
+    margin-top: 15px;
+    font-weight: bold;
+}
+</style>
+
+<!-- QUESTION 7 -->
+
+<style>
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    width: 250px;
+    display: block;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+.valid {
+    border-color: green;
+}
+.invalid {
+    border-color: red;
+}
+#ticket {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 270px;
+    display: none;
+}
+</style>
+
+<!-- QUESTION 8 -->
+<style>
+input, textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 270px;
+    border: 2px solid #ccc;
+    display: block;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 320px;
+    white-space: pre-wrap;
+    background: #f8f8f8;
+}
+</style>
+
+<!-- QUESTION 9 -->
+<style>
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: 2px solid #ccc;
+    display: block;
+}
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 280px;
+}
+</style>
+
+<!-- QUESTION 10 -->
+<style>
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    display: block;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+.valid {
+    border-color: green;
+}
+
+.invalid {
+    border-color: red;
+}
+
+button {
+    padding: 8px 16px;
+}
+</style>
+
+</head>
+<body>
+    
+    <!-- qusetion 1 -->
+
+  <h2>Dynamic Form Builder</h2>
+
+  <div id="formContainer"></div>
+  <button id="submitBtn">Submit</button>
+
+  <script src="script.js"></script>
+
+
+    <!-- qusetion 2 -->
+
+
+  <h2>Update User Object</h2>
+
+  <label>Name:</label>
+  <input type="text" id="name">
+
+  <label>Email:</label>
+  <input type="text" id="email">
+
+  <label>Age:</label>
+  <input type="number" id="age">
+
+  <button id="updateBtn">Update</button>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+
+
+    <!-- qusetion 3 -->
+
+    <h1>Product Manager Console Output</h1>
+    <script src="script.js"></script>
+
+
+    <!-- qusetion 4 -->
+
+    <h2>Employee Management System (Check Console)</h2>
+    <script src="script.js"></script>
+
+
+    <!-- qusetion 5 -->    
+
+  
+  <h2>Library Management System (Check Console)</h2>
+  <script src="script.js"></script>
+
+
+    <!-- qusetion 6 -->
+  <h2>Login Form</h2>
+
+  <label>Username:</label>
+  <input type="text" id="username">
+  <div id="userError" class="error"></div>
+
+  <label>Password:</label>
+  <input type="password" id="password">
+  <div id="passError" class="error"></div>
+
+  <button id="loginBtn">Login</button>
+
+  <div id="msg"></div>
+
+  <script src="script.js"></script>
+
+
+    <!-- qusetion 7 -->
+
+  <h2>Movie Ticket Booking</h2>
+
+  <label>Name:</label>
+  <input type="text" id="name">
+  <div id="nameError" class="error"></div>
+
+  <label>Email:</label>
+  <input type="text" id="email">
+  <div id="emailError" class="error"></div>
+
+  <label>Seats:</label>
+  <input type="number" id="seats">
+  <div id="seatsError" class="error"></div>
+
+  <button id="bookBtn">Book Ticket</button>
+
+  <div id="ticket"></div>
+
+  <script src="script.js"></script>
+
+    <!-- qusetion 8 -->
+     <h2>Dynamic Object Updater</h2>
+    <script src="script.js"></script>
+
+    <!-- qusetion 9 -->
+
+  <h2>Shopping Cart</h2>
+
+  <label>Item Name:</label>
+  <input type="text" id="itemName">
+
+  <label>Price:</label>
+  <input type="number" id="itemPrice">
+
+  <label>Quantity:</label>
+  <input type="number" id="itemQty">
+
+  <button id="addBtn">Add Item</button>
+
+  <h3>Apply Coupon</h3>
+  <input type="text" id="coupon" placeholder="SAVE20 / DISC10">
+
+  <button id="checkBtn">Get Total</button>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+
+
+    <!-- qusetion 1o -->
+
+  <h2>Student Registration Form</h2>
+  <form id="studentForm">
+    <label>Name:</label>
+    <input type="text" id="name" />
+    <div id="nameError" class="error"></div>
+
+    <label>Email:</label>
+    <input type="text" id="email" />
+    <div id="emailError" class="error"></div>
+
+    <label>Phone:</label>
+    <input type="text" id="phone" />
+    <div id="phoneError" class="error"></div>
+
+    <label>Password:</label>
+    <input type="password" id="password" />
+    <div id="passwordError" class="error"></div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+       
+</body>
+</html>

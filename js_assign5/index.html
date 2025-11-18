@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- question 1 -->
+    <h3>Callback Function</h3>
+    <script src="script.js"></script>
+
+
+
+    <!-- question 2 -->
+    <h1>Array Operations</h1>
+    <script src="script.js"></script>
+
+
+
+    <!-- question 3 -->
+    <h1> Arrow Function Issue</h1>
+    <script src="script.js"></script>
+
+
+
+    <!-- question 4 -->
+    <h3>Constructor and Prototype</h3>
+    <script src="script.js"></script>
+
+
+
+    <!-- question 5 -->
+    <h3>Inheritance Chain</h3>
+    <script src="script.js"></script>
+
+
+
+    <!-- question 6 -->
+    <h3>Multi-level Inheritance</h3>
+    <script src="script.js"></script>
+
+
+
+    <!-- question 7 -->
+    <h3>Closure Example</h3>
+    <script src="script.js"></script>
+
+
+
+    <!-- question 8 -->
+    <h3>Custom Map Method</h3>
+    <script src="script.js"></script>
+
+
+    
+    <!-- question 9 -->
+    <h3> ES6 Classes</h3>
+    <script src="script.js"></script>
+    
+</body>
+</html>
