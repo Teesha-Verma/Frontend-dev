@@ -8,6 +8,7 @@ function showMessage() {
 }
 
 showMessage();
+
 // question 2
 const apiData = ["25", "true", "false", "NaN", " ", "100px", "3.14", null, undefined];
 
@@ -34,6 +35,7 @@ for (let value of apiData) {
 
 console.log("Valid Numeric Data:", validNumbers);
 console.log("Invalid Numeric Data:", invalidNumbers);
+
 // question 3
 "use strict";
 
@@ -64,6 +66,7 @@ Bonus: ${bonus}
     console.log(`Error for employee: ${emp.name || "Unknown"} → ${err}`);
   }
 }
+
 // question 4
 "use strict";
 
@@ -110,6 +113,7 @@ const startGameArrow = (s) => console.log(s);
 announceArrow();
 let statusArrow = "ready";
 startGameArrow(statusArrow);
+
 // question 5
 "use strict";
 
@@ -161,6 +165,7 @@ console.log(`Errors: ${errors.length}`);
 console.log("Clean Data:", cleanData);
 console.log("Errors (detailed):", errors);
 console.log("Under-18 users:", under18);
+
 // question 6
 "use strict";
 
@@ -273,6 +278,7 @@ console.log("\nAsynchronous demonstration (shows differences when using let vs v
     }
   }, (limit + 1) * 150);
 })();
+
 // question 8
 "use strict";
 
@@ -343,6 +349,8 @@ Error: ${err}
 //   console.log("total =", total);
 // }
 // demoFixed(5, 10);
+
+
 // question 10
 "use strict";
 
