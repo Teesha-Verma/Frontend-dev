@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custom Dropdown</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- question 1 -->
+<div class="dropdown">
+<button id="dropBtn">Select Option</button>
+<div id="options" class="options">
+<div class="opt">Option 1</div>
+<div class="opt">Option 2</div>
+<div class="opt">Option 3</div>
+</div>
+</div>
+
+
+<!-- question 2 -->
+
+<div class="container">
+<h2>Mouse Path & Coordinates</h2>
+<div id="box"></div>
+<p id="coords">X: 0, Y: 0</p>
+</div>
+
+
+
+<!-- question 3 -->
+
+<div class="container">
+<h1>Product List Manager</h1>
+<div class="input-area">
+<input type="text" id="productInput" placeholder="Enter product name">
+<button id="addBtn">Add</button>
+</div>
+<ul id="productList"></ul>
+</div>
+
+
+
+<!-- question 4 -->
+
+<div class="container">
+<h2>Form Validation</h2>
+
+<form id="myForm">
+<input type="text" id="nameInput" placeholder="Name">
+<p class="err" id="nameErr"></p>
+
+<input type="email" id="emailInput" placeholder="Email">
+<p class="err" id="emailErr"></p>
+
+<input type="password" id="passInput" placeholder="Password">
+<p class="err" id="passErr"></p>
+
+<button type="submit" id="submitBtn">Submit</button>
+</form>
+
+<p id="success"></p>
+</div>
+
+
+
+
+<!-- question 5 -->
+
+<div class="gallery">
+<img src="https://picsum.photos/id/101/200" class="img">
+<img src="https://picsum.photos/id/102/200" class="img">
+<img src="https://picsum.photos/id/103/200" class="img">
+<img src="https://picsum.photos/id/104/200" class="img">
+<img src="https://picsum.photos/id/105/200" class="img">
+<img src="https://picsum.photos/id/106/200" class="img">
+</div>
+
+<div id="modal" class="modal">
+<div class="modal-content">
+<img id="modalImg">
+</div>
+</div>
+
+
+
+
+
+<!-- question 6 -->
+
+<div class="container">
+<h2>Live Character Counter</h2>
+<textarea id="textBox" maxlength="100"></textarea>
+<p id="counter">100 characters left</p>
+<button id="resetBtn">Reset</button>
+</div>
+
+
+
+<!-- question 7 -->
+
+<div class="container">
+<div id="step1" class="step active">
+<h2>Step 1</h2>
+<input type="text" id="nameInput" placeholder="Enter Name">
+<button id="next1">Next</button>
+</div>
+
+<div id="step2" class="step">
+<h2>Step 2</h2>
+<input type="email" id="emailInput" placeholder="Enter Email">
+<div class="btns">
+<button id="back2">Back</button>
+<button id="next2">Next</button>
+</div>
+</div>
+
+<div id="step3" class="step">
+<h2>Step 3</h2>
+<input type="password" id="passInput" placeholder="Enter Password">
+<div class="btns">
+<button id="back3">Back</button>
+<button id="finish">Finish</button>
+</div>
+</div>
+
+<div id="summary" class="step">
+<h2>Summary</h2>
+<p id="sumName"></p>
+<p id="sumEmail"></p>
+<p id="sumPass"></p>
+</div>
+</div>
+
+
+
+
+<!-- question 8 -->
+
+<div class="container">
+<h2>Student Table Filter</h2>
+
+<input type="text" id="searchBox" placeholder="Search students">
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Branch</th>
+<th>CGPA</th>
+</tr>
+</thead>
+
+<tbody id="tableBody">
+<tr><td>Rahul</td><td>CSE</td><td>8.2</td></tr>
+<tr><td>Aisha</td><td>ECE</td><td>9.1</td></tr>
+<tr><td>Sam</td><td>ME</td><td>7.8</td></tr>
+<tr><td>Sneha</td><td>CSE</td><td>8.7</td></tr>
+<tr><td>Rohan</td><td>IT</td><td>9.3</td></tr>
+<tr><td>Kiran</td><td>Civil</td><td>7.5</td></tr>
+</tbody>
+</table>
+
+<p id="noResult">No results found</p>
+</div>
+
+
+
+<!-- question 9 -->
+
+<body data-theme="light">
+<div class="container">
+<h2>Theme Switcher</h2>
+<div class="btns">
+<button id="lightBtn">Light</button>
+<button id="darkBtn">Dark</button>
+<button id="blueBtn">Blue</button>
+</div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+         
