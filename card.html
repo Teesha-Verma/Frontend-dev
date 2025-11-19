@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+</head>
+
+<!-- css -->
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    body{
+        background-color: #ffffff;
+        display:flex;
+        justify-content: center;
+    }
+    .fullBox{
+        background-color: #be2626;
+        display:flex;
+        /* justify-content: center; */
+        display: flex;
+        width: 50%;
+        max-width: 200 px;
+        height: 925px;
+        margin-top: 30px;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .pinkBox{
+      background-color: rgb(196, 147, 155);
+      display: flex;
+      width: 80%;
+      max-width: 100 px;
+      height: 300px;
+      margin-top: 20px;
+      margin-left: 70px;
+      border-radius: 50px;
+      align-items: center;
+    
+    }
+    .whiteBox{
+    background-color: #f5f7fa;
+    width: 40%;
+    max-width: 100 px;
+    height: 190px;
+    border-radius: 30px;
+    margin-left: 180px;
+    }
+    .middleBoxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 30px;
+    }
+   .middleBoxes div {
+    width: 170px;
+    height: 200px;
+    border-radius: 20px;
+   }
+   .box1 {background-color: #4b0c0c;}
+   .box2 {background-color: #de6b6b;}
+   .box3 {background-color: #4b0c0c;}
+
+   .bottombtn{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+   }
+
+   .centerbtn{
+    background-color: #ffffff;
+    width: 300px;
+    height: 80px;
+    border-radius: 999px;
+   }
+   .lowerbtns{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 80px;
+   }
+   .lowerbtns div{
+    background-color: #f5f7fa;
+    width: 180px;
+    height: 50px;
+    border-radius: 999px;
+   }
+    
+</style>
+<body>
+<div class="fullBox">
+    <!-- top boxes -->
+    <div class="pinkBox">
+        <div class="whiteBox"></div>
+    </div>
+
+    <!-- middle boxes -->
+    <div class="middleBoxes">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+    
+    <!-- bottom part -->
+     <div class="bottombtn">
+        <div class="centerbtn"></div>
+        <div class="lowerbtns">
+            <div class="btn1"></div>
+            <div class="btn2"></div>
+            <div class="btn3"></div>
+        </div>
+     </div>
+     </div>
+</body>
+</html>
