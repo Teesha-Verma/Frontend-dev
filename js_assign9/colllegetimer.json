@@ -1,0 +1,53 @@
+{
+  "timetable": [
+    {
+      "id": 1,
+      "day": "Monday",
+      "subject": "Data Structures",
+      "faculty": "Mr. Brajesh Kumar",
+      "time": "09:00 AM - 10:30 AM"
+    },
+    {
+      "id": 2,
+      "day": "Monday",
+      "subject": "Web Development",
+      "faculty": "Trainer Satyaprakash Singh",
+      "time": "11:00 AM - 12:30 PM"
+    },
+    {
+      "id": 3,
+      "day": "Monday",
+      "subject": "Database Management",
+      "faculty": "Dr. Anjali",
+      "time": "02:00 PM - 03:30 PM"
+    },
+    {
+      "id": 4,
+      "day": "Tuesday",
+      "subject": "Operating Systems",
+      "faculty": "Prof. Mona Kumari",
+      "time": "09:00 AM - 10:30 AM"
+    },
+    {
+      "id": 5,
+      "day": "Tuesday",
+      "subject": "Computer Networks",
+      "faculty": "Dr. Ashutosh",
+      "time": "11:00 AM - 12:30 PM"
+    },
+    {
+      "id": 6,
+      "day": "Wednesday",
+      "subject": "Algorithms",
+      "faculty": "Dr. LekhRaj ",
+      "time": "10:00 AM - 11:30 AM"
+    }
+  ]
+}
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Nitin Goyal",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "name": "Shubham Singh",
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "name": "Akshat Jain",
+      "status": "inactive"
+    },
+    {
+      "id": "4",
+      "name": "Sarthak Saghal",
+      "status": "inactive"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Headphones",
+        "price": 59.99,
+        "image": "https://via.placeholder.com/50?text=Headphone"
+    },
+    {
+        "id": 2,
+        "name": "Gaming Mouse",
+        "price": 25.50,
+        "image": "https://via.placeholder.com/50?text=Mouse"
+    },
+    {
+        "id": 3,
+        "name": "Mechanical Keyboard",
+        "price": 89.00,
+        "image": "https://via.placeholder.com/50?text=Keyboard"
+    },
+    {
+        "id": 4,
+        "name": "Smartphone Stand",
+        "price": 12.99,
+        "image": "https://via.placeholder.com/50?text=Stand"
+    },
+    {
+        "id": 5,
+        "name": "USB-C Cable",
+        "price": 9.99,
+        "image": "https://via.placeholder.com/50?text=Cable"
+    }
+]

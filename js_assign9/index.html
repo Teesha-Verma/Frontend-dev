@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+  <body>
+
+    <!-- college Timetable Viewer -->
+    <div class="container">
+      <h2>Daily Timetable</h2>
+
+      <div class="controls">
+        <select id="day-selector">
+          <option value="" disabled selected>Select a Day</option>
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
+          <option value="Sunday">Sunday</option>
+        </select>
+      </div>
+
+      <div id="table-container" class="hidden">
+        <table>
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Subject</th>
+              <th>Faculty</th>
+            </tr>
+          </thead>
+          <tbody id="schedule-body"></tbody>
+        </table>
+      </div>
+
+      <div id="no-classes-msg" class="empty-msg hidden">No classes today.</div>
+    </div>
+
+    <!-- Employee status dashboard -->
+
+    <div class="container">
+      <h2>Employee Status</h2>
+
+      <div id="error-box">
+        Network Error: Could not update status. Reverting...
+      </div>
+
+      <ul id="employee-list" class="employee-list">
+        <li style="text-align: center; color: #777">Loading employees...</li>
+      </ul>
+    </div>
+
+    <!-- Multi API Dashboard -->
+
+    <div class="dashboard">
+        <h1>Store Analytics</h1>
+        
+        <div id="error-banner" class="error-banner">
+            Some data could not be loaded. Please check your connection.
+        </div>
+
+        <div class="stats-grid">
+            <div class="card">
+                <h3>Total Users</h3>
+                <div id="users-count" class="count skeleton">00</div>
+            </div>
+            <div class="card">
+                <h3>Total Orders</h3>
+                <div id="orders-count" class="count skeleton">00</div>
+            </div>
+            <div class="card">
+                <h3>Total Products</h3>
+                <div id="products-count" class="count skeleton">00</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Real time live server -->
+
+    <div class="container">
+      <h2>Product Search</h2>
+      <input type="text" id="search-box" placeholder="Type to search..." />
+
+      <div id="loader" style="display: none">Searching...</div>
+
+      <div id="results"></div>
+    </div>
+
+    <!-- task manager with filter -->
+
+     <div class="container">
+      <h2>Task Manager</h2>
+
+      <select id="filter-dropdown">
+        <option value="">Show All</option>
+        <option value="low">Low Priority</option>
+        <option value="medium">Medium Priority</option>
+        <option value="high">High Priority</option>
+        <option value="completed">Completed</option>
+      </select>
+
+      <ul id="task-list"></ul>
+    </div>
+
+    <!-- user registration with duplicate -->
+
+    <div class="card">
+      <h2>Sign Up</h2>
+      <form id="reg-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" required placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            required
+            placeholder="Enter your email"
+          />
+        </div>
+        <button type="submit" id="submit-btn">Register</button>
+      </form>
+      <div id="msg-box" class="message"></div>
+    </div>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>

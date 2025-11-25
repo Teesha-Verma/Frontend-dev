@@ -1,0 +1,26 @@
+{
+  "users": [
+    { "id": 1, "name": "Alice" },
+    { "id": 2, "name": "Bob" },
+    { "id": 3, "name": "Charlie" },
+    { "id": 4, "name": "David" }
+  ],
+  "orders": [
+    { "id": 101, "item": "Book", "price": 20 },
+    { "id": 102, "item": "Pen", "price": 2 },
+    { "id": 103, "item": "Laptop", "price": 1000 },
+    { "id": 104, "item": "Mouse", "price": 25 },
+    { "id": 105, "item": "Monitor", "price": 200 },
+    { "id": 106, "item": "Keyboard", "price": 50 }
+  ],
+  "products": [
+    { "id": "A", "name": "Book" },
+    { "id": "B", "name": "Pen" },
+    { "id": "C", "name": "Laptop" },
+    { "id": "D", "name": "Mouse" },
+    { "id": "E", "name": "Monitor" },
+    { "id": "F", "name": "Keyboard" },
+    { "id": "G", "name": "Webcam" },
+    { "id": "H", "name": "Mic" }
+  ]
+}
